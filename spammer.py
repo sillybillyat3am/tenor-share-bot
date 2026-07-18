@@ -6,7 +6,7 @@ def spam():
     global done
     while True:
         try:
-            r = requests.get('https://api.tenor.com/v1/registershare? < REPLACE WITH YOUR LINK (looks like that)')
+            r = requests.get('https://tenor.com/vI6SARINeQ5.gif')
             done += 1
             print(f'Successfully added a share | This post now has been botted {done} shares. {r.status_code}')
         except:
